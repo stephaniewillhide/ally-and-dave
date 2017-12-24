@@ -1,0 +1,191 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 110%;
+  margin: 0;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  min-width: 100%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.large {
+  font-size: 200%;
+  font-family: 'Lily Script One', cursive;
+  text-shadow: 0 0 1em #FFFFFF;
+}
+
+@media only screen and (max-width: 900px) {
+  .large {
+    font-size: 150%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .large {
+    font-size: 80%;
+  }
+}
+
+.margin-small {
+  margin: 10px 0;
+}
+
+.navbar {
+  text-align: center;
+  padding: 8px;
+}
+
+.navbar-item {
+  display: inline;
+  padding: 0 10px;
+  font-family: 'Lily Script One', cursive;
+  font-size: 1.5em;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: #f671a0;
+}
+
+.navbar-item a:hover {
+  color: #ea3a78;
+}
+
+.content-container {
+  margin-top: 0;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.content-left {
+  float: left;
+  width: 47%;
+  padding-right: 3%;
+}
+
+@media only screen and (max-width: 700px) {
+  .content-left {
+    width: 100%;
+  }
+}
+
+.content-right {
+  float: right;
+  width: 47%;
+  padding-left: 3%;
+}
+
+@media only screen and (max-width: 700px) {
+  .content-right {
+    width: 100%;
+  }
+}
+
+.button {
+  background-color: #76c9f2;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+  transition-duration: 0.4s;
+  margin: 0 10px;
+}
+
+.button:hover {
+  background-color: #37ace5;
+  box-shadow: 2px 2px 12px 0 rgba(0,0,0,.3);
+}
+
+.margin {
+  margin: 100px;
+}
+
+.embed-responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 60px; overflow: hidden;
+}
+ 
+.embed-responsive-item {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.margin-top-zero {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.margin-zero {
+  margin: 0;
+}
+
+.text-right {
+  text-align: right;
+}
+
+@media only screen and (max-width: 700px) {
+  .text-right {
+    text-align: center;
+  }
+}
+
+.footer {
+  background-color: #d3d6e3;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
+
+.margin-photo {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 3% 0;
+}
+
+.padding {
+  padding: 60px;
+}
+
+.restaurant-link {
+  text-decoration: none;
+  color: #86b300;
+}
+
+.restaurant-link:hover {
+  color: #608000;
+}
